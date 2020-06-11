@@ -1,0 +1,11 @@
+#This is a simple calculator using only 2 numbers to give different mathematical output depending on the operation done to them
+
+Number_1 = float(input("Please insert first number: "))
+Number_2 = float(input("Please insert second number: "))
+
+print("Number Addition: ",Number_1+Number_2)
+print("Number Subtraction: ",Number_1-Number_2)
+print("Numbers Multiplied: ",Number_1*Number_2)
+print("First Number to the power of the Second Number: ",Number_1**Number_2)
+print("Numbers Divided: ",Number_1/Number_2)
+print("Remainder of numbers: ",Number_1%Number_2)
